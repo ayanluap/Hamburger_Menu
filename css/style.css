@@ -13,6 +13,17 @@
   box-sizing: border-box;
 }
 
+.clr {
+  color: skyblue;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-top: .3rem;
+  z-index: 11;
+}
+
 .container {
   max-width: 960px;
   margin: auto;
@@ -30,6 +41,7 @@ html, body {
   height: 100vh;
   color: #fff;
   display: flex;
+  flex-direction: column;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -47,7 +59,7 @@ html, body {
   z-index: -1;
 }
 
-#showcase h1 {
+#showcase .container h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
